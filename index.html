@@ -384,6 +384,15 @@
     margin-bottom: 1.5rem;
   }
 
+  .project-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    margin: 0 0 1.25rem;
+  }
+
   .project-tech {
     display: flex;
     flex-wrap: wrap;
@@ -744,7 +753,7 @@
         </div>
         <div class="detail-card">
           <div class="detail-label">Location</div>
-          <div class="detail-value">Dublin, Ireland</div>
+          <div class="detail-value">Cork, Ireland</div>
         </div>
         <div class="detail-card">
           <div class="detail-label">Interests</div>
@@ -800,6 +809,7 @@
       <div class="project-card">
         <div class="project-tag">NLP · Machine Learning</div>
         <h3>Evaluating Psychiatric Drug Efficacy via Sentiment & Clinical Data</h3>
+        <img src="drug_sentiment.png" alt="Psychiatric drug sentiment analysis project preview" class="project-image">
         <p class="project-desc">
           MSc thesis combining Reddit patient sentiment with structured clinical data to assess psychiatric drug efficacy. Built a full NLP pipeline using RoBERTa, BERTopic, and VADER deployed on AWS.
         </p>
@@ -816,13 +826,14 @@
           <li>Topic modelling identified clinically-relevant themes (efficacy, side effects, withdrawal)</li>
           <li>Deployed pipeline on AWS with reproducible Docker environment</li>
         </ul>
-        <a href="https://github.com/maximised" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
+        <a href="https://github.com/maximised/DrugSentimentAnalysis" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
       </div>
 
       <!-- Banana CV -->
       <div class="project-card">
         <div class="project-tag">Computer Vision · Deep Learning</div>
         <h3>Banana Ripeness Classifier</h3>
+        <img src="banana_classifier.png" alt="Banana ripeness classifier project preview" class="project-image">
         <p class="project-desc">
           End-to-end CNN image classifier detecting five stages of banana ripeness, from training on a custom dataset through to a deployed web interface.
         </p>
@@ -839,29 +850,32 @@
           <li>Deployed as REST API using FastAPI and Docker</li>
           <li>Achieved strong classification accuracy on held-out test set</li>
         </ul>
-        <a href="https://github.com/maximised" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
+        <a href="https://github.com/maximised/Banana-Ripeness-Classifier" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
       </div>
 
-      <!-- Social Sentiment -->
+      <!-- Sports Betting Customer Analytics -->
       <div class="project-card">
-        <div class="project-tag">NLP · Dashboard</div>
-        <h3>Social Sentiment Dashboard</h3>
+        <div class="project-tag">Tableau · SQL · Data Visualisation</div>
+        <h3>Sports Betting Customer Analytics Dashboard</h3>
+        <img src="sport_betting.png" alt="Sports betting customer analytics dashboard preview" class="project-image">
         <p class="project-desc">
-          Real-time NLP dashboard that ingests social media data, runs sentiment analysis, and surfaces insights via an interactive analytics interface.
+          Interactive Tableau dashboard analysing betting behaviour across 38,000+ customer accounts and £4B in betting volume. Designed to compare premium and non-premium customers, identify revenue-driving sports, and explore seasonal betting patterns across multiple betting markets.
         </p>
         <div class="project-tech">
-          <span class="tech-chip">Python</span>
-          <span class="tech-chip">VADER</span>
-          <span class="tech-chip">Plotly</span>
-          <span class="tech-chip">Streamlit</span>
-          <span class="tech-chip">API integration</span>
+          <span class="tech-chip">Tableau</span>
+          <span class="tech-chip">SQL</span>
+          <span class="tech-chip">Data Visualisation</span>
+          <span class="tech-chip">Customer Analytics</span>
+          <span class="tech-chip">KPI Design</span>
         </div>
         <ul class="project-highlights">
-          <li>Live ingestion pipeline from social media APIs</li>
-          <li>Sentiment scoring with trend detection over time windows</li>
-          <li>Interactive Plotly dashboard with topic filtering</li>
+          <li>Analysed betting activity across 38,531 customer accounts and 70M bets</li>
+          <li>Built executive dashboard tracking betting volume, commission revenue, account activity, and sport-level performance</li>
+          <li>Developed premium vs non-premium customer segmentation analysis</li>
+          <li>Created interactive drill-down views for seasonal trends and sport-specific performance</li>
+          <li>Identified sports generating the highest betting volume (£1.59B Cricket, £1.35B Soccer) and commission revenue</li>
+          <li>Combined tabular KPI reporting with interactive visual analytics for stakeholder decision-making</li>
         </ul>
-        <a href="https://github.com/maximised/SocialMediaSentiment" target="_blank" rel="noopener" class="project-link">View on GitHub →</a>
       </div>
 
     </div>
@@ -949,7 +963,7 @@
       <div class="exp-item">
         <div class="exp-period">2023 — Present</div>
         <div>
-          <div class="exp-role">Clinical Data Engineer</div>
+          <div class="exp-role">Clinical Data Scientist</div>
           <div class="exp-company">RCSI / Beaumont Hospital — Dublin, Ireland</div>
           <ul class="exp-bullets">
             <li>Designing and maintaining the national stroke thrombectomy registry on REDCap</li>
@@ -989,7 +1003,7 @@
           I'm open to roles in data science, healthcare analytics, BI development, and data engineering — particularly where the work has real clinical or societal impact.
         </p>
         <p>
-          Based in Dublin. Happy to discuss remote or hybrid opportunities across Ireland.
+          Based in Cork. Happy to discuss remote or hybrid opportunities across Ireland.
         </p>
       </div>
       <div class="contact-links">
@@ -1000,18 +1014,18 @@
           </div>
           <div>
             <div class="contact-link-label">Email</div>
-            <div class="contact-link-sub">maxim@example.com</div>
+            <div class="contact-link-sub">maximchopivskyy@outlook.com</div>
           </div>
           <div class="contact-arrow">→</div>
         </a>
 
-        <a href="https://linkedin.com/in/maximised" target="_blank" rel="noopener" class="contact-link">
+        <a href="https://www.linkedin.com/in/maxim-chopivskyy/" target="_blank" rel="noopener" class="contact-link">
           <div class="contact-link-icon">
             <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
           </div>
           <div>
             <div class="contact-link-label">LinkedIn</div>
-            <div class="contact-link-sub">linkedin.com/in/maximised</div>
+            <div class="contact-link-sub">linkedin.com/in/maxim-chopivskyy/</div>
           </div>
           <div class="contact-arrow">→</div>
         </a>
@@ -1027,7 +1041,7 @@
           <div class="contact-arrow">→</div>
         </a>
 
-        <a href="#" class="contact-link">
+        <a href="CV_Maxim_Chopivskyy%2026-05-11.pdf" class="contact-link" target="_blank" rel="noopener">
           <div class="contact-link-icon">
             <svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
           </div>
@@ -1044,7 +1058,7 @@
 </section>
 
 <footer>
-  <p>Maxim Chopivskyy · Dublin, Ireland · Built with HTML & CSS</p>
+  <p>Maxim Chopivskyy · Cork, Ireland · Built with HTML & CSS</p>
 </footer>
 
 </body>
